@@ -4,6 +4,12 @@ const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('postgres', 'postgres', 'Ndat.0362258973', {
     host: 'db.snotzdowzfkjngwcooko.supabase.co',
     dialect: 'postgres',
+    dialectOptions: {
+        ssl: {
+            require: true,
+            rejectUnauthorized: false,
+        },
+    },
     logging: false
 });
 
