@@ -10,7 +10,8 @@ const sequelize = new Sequelize('postgres', 'postgres', 'Ndat.0362258973', {
             rejectUnauthorized: false,
         },
     },
-    logging: false
+    logging: false,
+    useIPv6: false,
 });
 
 let connectDB = async () => {
