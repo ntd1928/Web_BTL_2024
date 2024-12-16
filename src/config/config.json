@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Ndat.0362258973",
+    "database": "postgres",
+    "host": "db.snotzdowzfkjngwcooko.supabase.co",
+    "dialect": "postgres",
+    "logging": false,
+    "query": {
+      "raw": true
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Ndat.654321",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Ndat.654321",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
