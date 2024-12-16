@@ -1,3 +1,6 @@
+const dns = require('dns');
+dns.setDefaultResultOrder('ipv4first');
+
 import express from "express";
 import bodyParser from "body-parser";
 import viewEngine from "./config/viewEngine";
