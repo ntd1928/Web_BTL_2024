@@ -3,6 +3,7 @@ const { Sequelize } = require('sequelize');
 // Option 3: Passing parameters separately (other dialects)
 const sequelize = new Sequelize('postgres', 'postgres', 'Ndat.0362258973', {
     host: 'db.snotzdowzfkjngwcooko.supabase.co',
+    port: 5432,
     dialect: 'postgres',
     dialectOptions: {
         ssl: {
